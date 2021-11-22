@@ -6,6 +6,8 @@
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
+    "noImplicitAny": false,
+    "allowJs": true,
     "experimentalDecorators": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -13,7 +15,8 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
-      "webpack-env"
+      "webpack-env",
+      "vuetify"
     ],
     "paths": {
       "@/*": [

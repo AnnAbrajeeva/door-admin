@@ -1,11 +1,11 @@
 module.exports = {
-  root: true,
+  root: false,
   env: {
     node: true
   },
   extends: [
-    'plugin:vue/essential',
-    '@vue/standard',
+    // 'plugin:vue/essential',
+    // '@vue/standard',
     '@vue/typescript/recommended'
   ],
   parserOptions: {
